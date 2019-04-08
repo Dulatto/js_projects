@@ -20,3 +20,4 @@ appData.expenses.monthExpenses1 = howMuch1;
 appData.expenses.monthExpenses2 = howMuch2;
 
 alert(appData.budget / 30);
+
