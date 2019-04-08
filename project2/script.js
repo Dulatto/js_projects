@@ -66,7 +66,7 @@ for (let i = 0; i < 2; i++) {
 
 //     i++;
 // }
-// while(i < 2);
+// while(i < 2);git
 appData.moneyPerDay = appData.budget / 30;
 
 alert("Daily budget:" + appData.moneyPerDay);
