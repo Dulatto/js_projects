@@ -41,7 +41,7 @@ function detectDayBudget(){
     appData.moneyPerDay = (appData.budget / 30).toFixed();
 }
 
-alert("Daily budget:" + detectDayBudget());
+ detectDayBudget();
 
 function detectLevel(){
     if (appData.moneyPerDay < 100) {
@@ -68,3 +68,12 @@ function checkSavings(){
 }
 
 checkSavings();
+
+function chooseOptExpenses(){
+   for(let i =1; i <= 3; i++){
+       let questionOptExpenses = prompt("Статья необязательных расходов?");
+       appData.optionalExpenses[i] = questionOptExpenses;
+        console.log(appData.optionalExpenses);
+   }
+}
+chooseOptExpenses();
