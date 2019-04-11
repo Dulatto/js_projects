@@ -15,78 +15,78 @@
         keeper
     </div>
     <div class="title">
-        Расчет дневного бюджета
+        Calculation of daily budget
     </div>
     <div class="main">
         <div class="data">
-            <div class="choose-expenses">Введите обязательные расходы</div>
+            <div class="choose-expenses">Enter required expenses</div>
             <input class="expenses-item" type="text" id="expenses_1" placeholder="Наименование">
 			<input class="expenses-item" type="text" id="expenses_2" placeholder="Цена">
 			<input class="expenses-item" type="text" id="expenses_3" placeholder="Наименование">
 			<input class="expenses-item" type="text" id="expenses_4" placeholder="Цена">
-            <button class="expenses-item-btn">Утвердить</button>
+            <button class="expenses-item-btn">Confirm</button>
             
-            <div class="optionalexpenses">Введите необязательные расходы</div>
+            <div class="optionalexpenses">Enter optional expenses</div>
 			<input class="optionalexpenses-item" type="text" id="optionalexpenses_1">
 			<input class="optionalexpenses-item" type="text" id="optionalexpenses_2">
 			<input class="optionalexpenses-item" type="text" id="optionalexpenses_3">
-            <button class="optionalexpenses-btn">Утвердить</button>
+            <button class="optionalexpenses-btn">Confirm</button>
             
-            <div class="count-budget">Расчет дневного бюджета</div>
-            <button class="count-budget-btn">Рассчитать</button>
+            <div class="count-budget">Calculation of daily budget</div>
+            <button class="count-budget-btn">Calculate</button>
             
-            <div class="choose-income-label">Введите статьи возможного дохода через запятую</div>
+            <div class="choose-income-label">Enter items of possible income, separated by commas</div>
             <input class="choose-income" type="text" id="income">
             
-            <div class="checksavings">Есть ли накопления: 
+            <div class="checksavings">Is there any savings?: 
                 <input id="savings" type="checkbox" />
             </div>
-            <label for="sum">Сумма</label>
+            <label for="sum">Amount</label>
 			<input class="choose-sum" id="sum" type="text">
-			<label for="percent">Процент</label>
+			<label for="percent">Percent</label>
             <input class="choose-percent" id="percent" type="text">
             
             <div class="open">
-                <button class="start" id="start">Начать расчет</button>
+                <button class="start" id="start">Start calculation</button>
             </div>
         </div>
         <div class="result">
             <div class="result-table">
-                <div class="budget">Доход: </div>
+                <div class="budget">Income: </div>
                 <div class="budget-value"></div>
     
-                <div class="daybudget">Бюджет на 1 день: </div>
+                <div class="daybudget">Budget for 1 day: </div>
                 <div class="daybudget-value"></div>
     
-                <div class="level">Уровень дохода: </div>
+                <div class="level">Income level: </div>
                 <div class="level-value"></div>
     
-                <div class="expenses">Обязательные расходы: </div>
+                <div class="expenses">Regular expenses: </div>
                 <div class="expenses-value"></div>
     
-                <div class="optionalexpenses">Возможные траты: </div>
+                <div class="optionalexpenses">Possible expenses: </div>
                 <div class="optionalexpenses-value"></div>
     
-                <div class="income">Дополнительный доход: </div>
+                <div class="income">Additional income: </div>
                 <div class="income-value"></div>
     
-                <div class="monthsavings">Накопления за 1 месяц:</div>
+                <div class="monthsavings">Savings for 1 month:</div>
                 <div class="monthsavings-value"></div>
     
-                <div class="yearsavings">Накопления за 1 год:</div>
+                <div class="yearsavings">Savings for 1 year:</div>
                 <div class="yearsavings-value"></div>
             </div>
             <div class="time-data">
                 <div class="year">
-                    Год:
+                    Year:
                     <input class="year-value" type="text" readonly>
                 </div>
                 <div class="month">
-                    Месяц:
+                    Month:
                     <input class="month-value" type="text" readonly>
                 </div>
                 <div class="day">
-                    День:
+                    Day:
                     <input class="day-value" type="text" readonly>
                 </div>
             </div>
