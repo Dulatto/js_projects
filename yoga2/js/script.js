@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
     //modal
 
-    let more = document.querySelector('.more, .description-btn'),
+    let more = document.querySelector('.more'),
         overlay = document.querySelector('.overlay'),
         close = document.querySelector('.popup-close');
     
@@ -101,7 +101,7 @@ window.addEventListener('DOMContentLoaded', function(){
         more.classList.remove('more-splash');
         document.body.style.overflow = '';
      });
-
+ 
 });
 
 // Второе задание
